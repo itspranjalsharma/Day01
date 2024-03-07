@@ -89,7 +89,7 @@ p a {
   opacity: 0.25;
 }
 
-@media only screen and (max-width: 300px) {
+ @media (min-width: 450px) and (max-width: 600px) {
   body {
     background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
     background-size: 400% 400%;
