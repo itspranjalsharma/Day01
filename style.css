@@ -89,7 +89,7 @@ p a {
   opacity: 0.25;
 }
 
-@media only screen and (max-width: 600px) {
+ @media (min-width: 450px) and (max-width: 600px) {
   body {
     background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
     background-size: 400% 400%;
@@ -109,14 +109,14 @@ p a {
     }
   }
 
-  .header_text {
+  .container {
     /* font-family: "Nunito"; */
     font-family: "Kalam", cursive;
-    font-size: 60px;
+    font-size: 60 px;
     font-weight: bold;
   }
   .gif_container img {
-    width: 300px;
-    height: 300px;
+    width: 300 px;
+    height: 300 px;
   }
 }
