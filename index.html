@@ -21,10 +21,18 @@
       </button>
 
       <script>
+
+        // Disbleing  right click 
+        document.addEventListener("contextmenu", (event) => {
+          event.preventDefault();
+        });
+
+        // The next pages begins
         function nextPage() {
           window.location.href = "yes.html";
         }
 
+        // The best hover effect of not clicking
         function moveButton() {
           var x =
             Math.random() *
